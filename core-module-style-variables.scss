@@ -1,0 +1,39 @@
+@import "core-module-style-variables-variables.scss";
+
+body {
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight);
+  line-height: var(--base-line-height);
+  background-color: var(--base-color-background);
+}
+
+small {
+  font-size: var(--base-font-size-small);
+}
+
+a,
+a:hover {
+  color: var(--base-color-accent);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--base-headings-font-family);
+  font-weight: var(--base-headings-font-weight);
+  line-height: var(--base-headings-line-height);
+  font-size: var(--base-font-size);
+
+  .has-text-color & {
+    color: inherit !important;
+  }
+}
+
+h1 { font-size: var(--base-headings-font-size-1) }
+h2 { font-size: var(--base-headings-font-size-2) }
+h3 { font-size: var(--base-headings-font-size-3) }
+h4 { font-size: var(--base-headings-font-size-4) }
