@@ -4,7 +4,7 @@ Provides the most essential css variables in theme and editor.
 
 ---
 
-Version: 1.0.5
+Version: 1.0.6
 
 Author: Ben @ https://modularity.group
 
@@ -17,6 +17,8 @@ Aims to give all modules the possibility to set color, font and layout definitio
 Customize in your `style.css` as needed.
 
 ---
+
+1.0.6 | add new var(--base-gap)
 
 1.0.5 | add new var(--base-offset-vertical), var(--base-line-height), var(--base-font-weight), var(--base-headings-font-weight)
 
