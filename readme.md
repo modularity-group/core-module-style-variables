@@ -4,7 +4,7 @@ Provides the most essential css variables in theme and editor.
 
 ---
 
-Version: 1.0.7
+Version: 1.0.8
 
 Author: Ben @ https://modularity.group
 
@@ -17,6 +17,8 @@ Aims to give all modules the possibility to set color, font and layout definitio
 Customize in your `style.css` as needed.
 
 ---
+
+1.0.8 | add new variable var(--base-headings-color)
 
 1.0.7 | tweak editor headline weight and application of --base-gap
 

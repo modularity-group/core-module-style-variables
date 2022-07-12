@@ -14,6 +14,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
+    color: var(--base-headings-color);
     font-family: var(--base-headings-font-family);
     line-height: var(--base-headings-line-height);
     font-size: var(--base-font-size);
